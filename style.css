@@ -1,0 +1,245 @@
+:root{
+    --firstcolor:#FD6E0A;
+}
+a{
+    color: #000;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header nav .logo{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+header nav .logo a{
+    text-decoration: none;
+     font-size: 30px;
+     
+}
+header nav .logo span{
+    color: #FD6E0A;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    
+}
+header nav ul li{
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 100px;
+    
+}
+.hire_me{
+    background-color: #FD6E0A;
+    padding: 10px 20px;
+}
+
+.marry{
+    background-image: url(https://images.unsplash.com/photo-1590086782957-93c06ef21604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YSUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+    margin-top: 100px;
+    padding-left: 50px;
+
+}
+.marry h3{
+    padding-top: 200px;
+    
+}
+
+
+.marry .download{
+    background-color: #FD6E0A;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 1px;
+}
+
+.marry .contact{
+    border: 1px solid var(--firstcolor);
+    color: var(--firstcolor);
+    margin-left: 10px;
+    padding: 10px;
+}
+.about{
+    margin-top: 100px;
+    text-align: center;
+}
+.about p{
+    padding-left: 50px;
+}
+.about_info{
+    display: flex;
+}
+.about_info h4{
+    
+    padding: 50px 0 0 300px;
+}
+.about_info2{
+    display: flex;
+}
+.about_info2 h3{
+    
+    padding: 10px 0 0 250px;
+}
+
+.about_info3 p{
+    padding-left: 50px;
+}
+.what{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.programin_langues{
+    background-color: aliceblue;
+    display: flex;
+    padding-left: 50px;
+}
+.java_script{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+   margin: 50px;
+}
+.react{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+}
+.node_js{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+}
+.mongo_DB{
+    background-color: white;
+    height: 400px;
+    width: 350px;
+    margin: 50px;
+}
+.fa-js{
+    color: rgb(192, 192, 5);
+    font-size: 50px;
+}
+.fa-react{
+    color: aqua;
+    font-size: 50px;
+}
+.fa-node-js{
+    color: darkgreen;
+    font-size: 50px;
+}
+.momgodb{
+    height: 90px;
+    width: 100px;
+}
+.programin_langues p{
+    color: blue;
+}
+.suumary h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.education h1{
+    font-size: 30px;
+}
+.my_experience h1{
+    font-size: 30px;
+}
+.resume{
+    display: flex;
+    
+}
+.resume p{
+    color: blue;
+}
+.education{
+    padding-left: 100px;
+}
+.my_experience{
+    margin-left: 300px;
+}
+.education2{
+    margin-top: 50px;
+}
+.education3{
+    margin-top: 50px;
+}
+.js_font_end{
+    margin-top: 50px;
+}
+.html_font_end{
+    margin-top: 50px;
+}
+.cv_download a{
+    text-decoration: none;
+    background-color: var(--firstcolor);
+    margin-left: 700px;
+    
+    padding: 10px;
+}
+.cv_download{
+    margin-top: 50px;
+}
+.contact{
+    padding-left: 100px;
+}
+.social_logo{
+    color: red;
+    
+}
+.fa-facebook{
+   padding-left: 5px;
+}
+.fa-twitter{
+    padding-left: 5px;
+}
+.fa-instagram{
+    padding-left: 5px;
+}
+.text_area{
+    height: 100px;
+}
+.submit_button{
+    background-color: var(--firstcolor);
+    color: white;
+    border: 1px solid var(--firstcolor);
+    border-radius: 1px;
+    padding: 10px 20px;
+    margin-top: 100px;
+}
+.main_footer{
+    display: flex;
+    margin: 200px;
+}
+.message_form{
+    margin-left: 200px;
+}
+input[type="text"]{
+    background-color: aliceblue;
+    height: 50px;
+    width: 500px;
+}
+input[type="email"]{
+    background-color: aliceblue;
+    height: 50px;
+    width: 500px;
+}
+input[type="text area"]{
+    background-color: aliceblue;
+    height: 200px;
+    width: 500px;
+}
